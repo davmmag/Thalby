@@ -1,0 +1,92 @@
+.footer {
+  background-color: #000;
+}
+
+.footer__container {
+  padding: 51px 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer__social {
+  flex-grow: 1;
+}
+.footer__logo {
+  margin-bottom: 32px;
+  display: inline-block;
+}
+
+
+.social__list {
+  display: flex;
+}
+
+.social__link {
+	display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: opacity 0.3s;
+}
+
+.social__link--inst {
+	background-image: url("/img/footer-insta.svg");
+  fill: #fff;
+	width: 26px;
+	height: 26px;
+}
+
+.social__link--fb {
+	background-image: url("/img/fb.svg");
+	width: 26px;
+	height: 26px;
+}
+
+.social__link--tw {
+	background-image: url("/img/tw.svg");
+	width: 26px;
+	height: 26px;
+}
+
+.social__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.footer-linkbox {
+  color: #fff;
+}
+
+.footer-linkboxes__list {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.footer-linkbox__item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.footer-linkbox__title {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23.1px;
+  margin-bottom: 35px;
+}
+
+.footer-linkbox__link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.footer-linkboxes__list {
+  max-width: 430px;
+  padding-right: 36px;
+}
+
+.footer-linkbox:first-child {
+  margin-right: 78px;
+}

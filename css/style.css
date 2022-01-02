@@ -1,0 +1,16 @@
+@import "_normallize.css";
+@import "_fonts.css";
+@import "_global.css";
+@import "_overall.css";
+@import "_variables.css";
+@import "_vendor.css";
+
+@import "./components/_header.css";
+@import "./components/_hero.css";
+@import "./components/_sellers.css";
+@import "./components/_society.css";
+@import "./components/_guides.css";
+@import "./components/_interviews.css";
+@import "./components/_mail.css";
+@import "./components/_footer.css";
+

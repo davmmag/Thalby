@@ -1,0 +1,56 @@
+.interviews {
+  background-color: #fff;
+}
+
+.interviews__container {
+
+}
+
+.interviews__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42.19px;
+  color: #000;
+  max-width: 705px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.interviews__items {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
+  gap: 100px;
+}
+
+.interview-item {
+  padding-bottom: 51px;
+}
+
+.interviews-item__text {
+  padding: 35px 20px 0 20px;
+}
+
+.interviews-item__title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25.78px;
+  margin-bottom: 41px;
+  letter-spacing: 0.6px;
+}
+
+.interview-item__name {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22.27px;
+  margin-bottom: 47px;
+  letter-spacing: 0.25px;
+}
+
+.interview-item__role {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.09px;
+}
+
